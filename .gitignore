@@ -1,0 +1,21 @@
+# ---- 编译产物（每次 build 都会变，不需要存版本）----
+Debug/
+Release/
+*.o
+*.d
+*.su
+*.elf
+*.bin
+*.hex
+*.map
+*.list
+*.stdout
+
+# ---- CubeIDE / Eclipse 本地缓存 ----
+.settings/
+.metadata/
+
+# ---- 系统垃圾 ----
+Thumbs.db
+desktop.ini
+.DS_Store
